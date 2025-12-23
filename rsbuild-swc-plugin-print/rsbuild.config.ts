@@ -16,4 +16,18 @@ export default defineConfig({
   // output: {
   //   injectStyles: true
   // }
+  tools: {
+    swc: {
+      jsc: {
+        experimental: {
+          plugins: [[
+            require.resolve('./swc_plugin.wasm'),
+            {
+              test: 'test',
+            }
+          ]]
+        }
+      }
+    }
+  }
 });

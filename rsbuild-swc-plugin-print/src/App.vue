@@ -6,7 +6,7 @@
 </template>
 <script setup lang="ts">
 </script>
-<style module src="./test.css"></style>
+<!-- <style module src="./test.css"></style> -->
 <style scoped>
 .content {
   display: flex;
